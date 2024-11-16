@@ -5,9 +5,9 @@
         <p>An app that enhances your stream with multiple features.</p>
         <br>
         <NuxtLink to="/welcome/tutorial">
-            <UButton class="font-bold text-lg">
+            <Button class="font-bold text-lg">
                 Next Page
-            </UButton>
+            </Button>
         </NuxtLink>
     </div>
 </template>
