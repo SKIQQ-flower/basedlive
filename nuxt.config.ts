@@ -24,14 +24,19 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@vueuse/nuxt', '@nuxtjs/color-mode', '@nuxt/icon', '@nuxt/ui', '@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', '@vueuse/nuxt', 'shadcn-nuxt', '@nuxtjs/color-mode', '@nuxt/icon'],
   colorMode: {
     classSuffix: "",
   },
-  ui: {
-    primary: 'slate',
-    popover: {
-      ring: '',
-    }
+  shadcn: {
+    /**
+     * Prefix for all the imported component
+     */
+    prefix: '',
+    /**
+     * Directory that the component lives in.
+     * @default "./components/ui"
+     */
+    componentDir: './components/ui'
   }
 });
