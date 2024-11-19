@@ -1,75 +1,12 @@
-# Nuxt Minimal Starter
+# Basedlive
+Basedlive is an app that level up your livestream with a ton of features, but some of them are missing (outch!). So i need contributions to make this project alive. Here is what i planned:
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+| Feature                                      | Status |
+| -------------------------------------------- | ------ |
+| Customizable pngtuber avatar system          | 🚧     |
+| Custom stream chat overlay maker             | ✖️     |
+| External 2D and 3D vtuber character importer | ✖️     |
+| Make your livestream bot with ease           | ✖️     |
+| Localization/I18n                            | ✖️     |
+| Addons system                                | ✖️     |
 
-## Setup
-
-Make sure to install dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
